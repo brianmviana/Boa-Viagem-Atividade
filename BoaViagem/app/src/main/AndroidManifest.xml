@@ -17,7 +17,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".DashboardActivity" />
-        <activity android:name=".ViagemActivity"></activity>
+        <activity android:name=".ViagemActivity" />
+        <activity android:name=".NovaViagemActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
